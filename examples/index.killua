@@ -1,0 +1,5 @@
+// this comment
+
+shell {
+    "ls --color -ahl"
+}

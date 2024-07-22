@@ -1,0 +1,16 @@
+-o killua
+-std=c++20
+./src/main.cpp
+./src/exception/syntax.cpp
+./src/frontend/parsing/lexer.cpp
+./src/frontend/parsing/parser.cpp
+./src/frontend/atomic/token.cpp
+./src/frontend/type/expression.cpp
+./src/frontend/type/token.cpp
+./src/frontend/type/token.pair.cpp
+./src/frontend/type/expression.type.cpp
+./src/frontend/type/expression/identifer.cpp
+./src/frontend/type/expression/literal.cpp
+./src/frontend/type/expression/object.cpp
+./src/frontend/type/expression/inizializer.cpp
+./src/backend/execution/machine.cpp
